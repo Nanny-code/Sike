@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Amo's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #555;
+            position: fixed;
+            width: 100%;
+            top: 50px;
+            z-index: 1000;
+        }
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #666;
+        }
+        .content {
+            padding: 100px 20px 20px 20px;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .animation {
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mary Amo</h1>
+</header>
+
+<nav>
+    <a href="#about-me">About Me</a>
+    <a href="#dear-diary">Dear Diary</a>
+    <a href="#worst">What's the Worst You've Done</a>
+    <a href="#politics">Politics 101</a>
+    <a href="#if-i-were">If I Were</a>
+    <a href="#contact">Contact</a>
+    <a href="#psych-me-mary">Psych Me Mary</a>
+</nav>
+
+<div class="content">
+    <section id="about-me" class="animation">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mary Amo, the disappointment of my family who is trying to express myself even though I'm not good with words.</p>
+    </section>
+
+    <section id="dear-diary" class="animation">
+        <h2>Dear Diary</h2>
+        <p>This is where I'll share my personal thoughts and experiences. Stay tuned for updates!</p>
+    </section>
+
+    <section id="worst" class="animation">
+        <h2>What's the Worst You've Done</h2>
+        <p>We all have regrets and mistakes. Here, I explore some of the worst things I've done and what I've learned from them.</p>
+    </section>
+
+    <section id="politics" class="animation">
+        <h2>Politics 101</h2>
+        <p>An exploration of my views on politics, current events, and how they shape our world.</p>
+    </section>
+
+    <section id="if-i-were" class="animation">
+        <h2>If I Were</h2>
+        <p>A creative space where I imagine myself in different roles and scenarios. What would I do if I were someone else?</p>
+    </section>
+
+    <section id="contact" class="animation">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:mary.amo@example.com">mary.amo@example.com</a>.</p>
+    </section>
+
+    <section id="psych-me-mary" class="animation">
+        <h2>Psych Me Mary</h2>
+        <p>Diving into psychology, mental health, and how our minds work. Join me on this journey of self-discovery and understanding.</p>
+    </section>
+</div>
+
+</body>
+</html>
